@@ -1,0 +1,175 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 300;
+    src:url('../fonts/poppins-v20-latin-300.woff2') format('woff2'),
+        url('../fonts/poppins-v20-latin-300.woff') format('woff'),
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff'),
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 600;
+    src:url('../fonts/poppins-v20-latin-600.woff2') format('woff2'),
+        url('../fonts/poppins-v20-latin-600.woff') format('woff'),
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Poppins';
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.woff2') format('woff2'),
+        url('../fonts/poppins-v20-latin-900.woff') format('woff'),
+}
+
+:root {
+    --color-primary-dark: #31261A;
+    --color-primary-light: #FAF4EA;
+    --color-brand-light: #819b57; 
+    --color-brand-dark: #465929;
+}
+
+/*base*/
+
+body {
+    color: var(--color-primary-dark);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.section-titel {
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3;
+}
+
+/*button*/
+
+.button {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-light);
+    border: 2px solid var(--color-brand-light);
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--color-brand-dark);
+   
+}
+
+/*link*/
+
+.link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+   }
+
+.link:hover {
+    color: var(--color-brand-light);
+    font-weight: 600;
+}
+
+/*hero-section*/
+
+.hero-titel {
+    color: var(--color-primary-light);
+    text-align: center;
+    font-size: 128px;
+    font-weight: 900;
+}
+
+.hero-titel .accent {
+    color: var(--color-brand-light);
+}
+
+/*advantages*/
+
+.advantages-list {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand-light);
+}
+
+.section-titel .accent {
+    color: var(--color-brand-dark);
+}
+
+.advantages-item {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*traditions*/
+
+.traditions-text .brand {
+    color: var(--color-brand-light);
+    font-weight: 600;
+}
+
+.traditions-text .uppercase {
+    color: var(--color-brand-light);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/*chef-section*/
+
+.chef-titel {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/*format-section*/
+
+.format-titel{
+    color: var(--color-primary-light);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.format-text {
+    color: var(--color-primary-light);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*footer*/
+
+.address-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.address-link:hover {
+    color: var(--color-brand-light);
+}
+
+.address-copyright{
+    color: var(--color-primary-light);
+    font-size: 14px;
+}
